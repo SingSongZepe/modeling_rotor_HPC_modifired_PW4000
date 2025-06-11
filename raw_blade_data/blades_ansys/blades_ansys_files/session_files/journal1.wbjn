@@ -1,0 +1,18 @@
+# encoding: utf-8
+# 2023 R1
+SetScriptVersion(Version="23.1.153")
+Save(Overwrite=True)
+template1 = GetTemplate(TemplateName="TurboGrid")
+system1 = template1.CreateSystem()
+system1.DisplayText = "L1_rotor_blade"
+turboMesh1 = system1.GetContainer(ComponentName="Turbo Mesh")
+turboMesh1.Edit()
+turboMesh1.Exit()
+system1.Delete()
+template2 = GetTemplate(TemplateName="BladeGen")
+system2 = template2.CreateSystem()
+system2.DisplayText = "LV2_ROTOR"
+system2.DisplayText = "LV_2_ROTOR"
+bladeDesign1 = system2.GetContainer(ComponentName="Blade Design")
+bladeDesign1.Edit()
+Save(Overwrite=True)

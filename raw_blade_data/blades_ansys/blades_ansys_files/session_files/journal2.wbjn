@@ -1,0 +1,152 @@
+# encoding: utf-8
+# 2023 R1
+SetScriptVersion(Version="23.1.153")
+system1 = GetSystem(Name="BG")
+bladeDesign1 = system1.GetContainer(ComponentName="Blade Design")
+bladeDesign1.Edit()
+Save(Overwrite=True)
+bladeDesign1.Exit()
+system1.Copy(KeepConnections=True)
+system2 = GetSystem(Name="BG 1")
+system2.DisplayText = "LV_3_ROTOR"
+bladeDesign2 = system2.GetContainer(ComponentName="Blade Design")
+bladeDesign2.Edit()
+bladeDesign2.Exit()
+system2.Delete()
+template1 = GetTemplate(TemplateName="BladeGen")
+system3 = template1.CreateSystem(
+    Position="Below",
+    RelativeTo=system1)
+system3.DisplayText = "LV_3_ROTOR"
+bladeDesign3 = system3.GetContainer(ComponentName="Blade Design")
+bladeDesign3.Edit()
+Save(Overwrite=True)
+bladeDesign3.Exit()
+system4 = template1.CreateSystem(
+    Position="Below",
+    RelativeTo=system3)
+system4.DisplayText = "LV_4_ROTOR"
+bladeDesign4 = system4.GetContainer(ComponentName="Blade Design")
+bladeDesign4.Edit()
+bladeDesign3.Edit()
+Save(Overwrite=True)
+bladeDesign4.Exit()
+bladeDesign3.Exit()
+bladeDesign1.Edit()
+Save(Overwrite=True)
+bladeDesign1.Exit()
+bladeDesign4.Edit()
+bladeDesign4.Exit()
+bladeDesign3.Edit()
+Save(Overwrite=True)
+bladeDesign3.Exit()
+bladeDesign3.Edit()
+bladeDesign3.Exit()
+bladeDesign4.Edit()
+bladeDesign4.Exit()
+template2 = GetTemplate(TemplateName="Geometry")
+system5 = template2.CreateSystem(
+    Position="Below",
+    RelativeTo=system4)
+system5.Delete()
+system6 = template1.CreateSystem(
+    Position="Below",
+    RelativeTo=system4)
+system7 = template1.CreateSystem(
+    Position="Below",
+    RelativeTo=system6)
+system8 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+system9 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system3)
+system10 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system4)
+system11 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system6)
+system12 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system7)
+system13 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system8)
+system14 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system9)
+system15 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system10)
+system15.Delete()
+system6.DisplayText = "LV_5_ROTOR"
+system7.DisplayText = "LV_6_ROTOR"
+system8.DisplayText = "LV_7_ROTOR"
+system9.DisplayText = "LV_8_ROTOR"
+system10.DisplayText = "LV_9_ROTOR"
+system11.DisplayText = "LV_10_ROTOR"
+system12.DisplayText = "LV_11_ROTOR"
+system13.DisplayText = "LV_12_ROTOR"
+system14.DisplayText = "LV_13_ROTOR"
+bladeDesign5 = system6.GetContainer(ComponentName="Blade Design")
+bladeDesign5.Edit()
+Save(Overwrite=True)
+bladeDesign5.Exit()
+bladeDesign6 = system7.GetContainer(ComponentName="Blade Design")
+bladeDesign6.Edit()
+bladeDesign5.Edit()
+bladeDesign5.Exit()
+bladeDesignComponent1 = system6.GetComponent(Name="Blade Design")
+bladeDesignComponent1.Reset()
+bladeDesign5.Edit()
+bladeDesign5.Exit()
+bladeDesign6.Edit()
+bladeDesign5.Edit()
+bladeDesign5.Exit()
+bladeDesign6.Edit()
+Save(Overwrite=True)
+bladeDesign6.Exit()
+bladeDesign7 = system8.GetContainer(ComponentName="Blade Design")
+bladeDesign7.Edit()
+bladeDesign7.Edit()
+Save(Overwrite=True)
+bladeDesign7.Exit()
+bladeDesign6.Edit()
+bladeDesign6.Exit()
+bladeDesign6.Exit()
+bladeDesign7.Edit()
+bladeDesign7.Exit()
+bladeDesign8 = system9.GetContainer(ComponentName="Blade Design")
+bladeDesign8.Edit()
+Save(Overwrite=True)
+bladeDesign8.Exit()
+bladeDesign9 = system10.GetContainer(ComponentName="Blade Design")
+bladeDesign9.Edit()
+bladeDesign9.Edit()
+bladeDesign9.Edit()
+Save(Overwrite=True)
+bladeDesign9.Exit()
+bladeDesign10 = system11.GetContainer(ComponentName="Blade Design")
+bladeDesign10.Edit()
+Save(Overwrite=True)
+bladeDesign10.Exit()
+bladeDesign11 = system12.GetContainer(ComponentName="Blade Design")
+bladeDesign11.Edit()
+bladeDesign11.Exit()
+bladeDesign12 = system13.GetContainer(ComponentName="Blade Design")
+bladeDesign12.Edit()
+Save(Overwrite=True)
+bladeDesign12.Exit()
+bladeDesign13 = system14.GetContainer(ComponentName="Blade Design")
+bladeDesign13.Edit()
+bladeDesign13.Edit()
+Save(Overwrite=True)
+bladeDesign13.Exit()
+bladeDesign7.Edit()
+bladeDesign7.Exit()
+bladeDesign6.Edit()
+bladeDesign6.Exit()
+bladeDesign5.Edit()
+bladeDesign5.Exit()
+Save(Overwrite=True)
