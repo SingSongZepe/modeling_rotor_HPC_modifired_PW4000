@@ -1,7 +1,5 @@
 # This is a modeling project for modified aircraft engine based on PW4000
 
-
-
 ## Introduction
 
     Use NX UG 3D CAE software to model the rotor of high-pressure compressor of modified PW4000.
@@ -18,6 +16,8 @@
 
 
 
+    Complete model the outer frame and the stator
+
 ## Result Rendering Picture
 
 ![](./res/img/assembly_1.png)
@@ -26,4 +26,6 @@
 
 ![](./res/img/assembly_3.png)
 
+![](./res/img/singsongHPC_PW4000_modified.png)
 
+![](./res/img/singsongHPC_PW4000_modified_1.png)

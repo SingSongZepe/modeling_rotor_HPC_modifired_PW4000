@@ -2,14 +2,16 @@
 <Storage>
   <Project Version="9.1">
     <base-designpoint-name valType="String">0</base-designpoint-name>
-    <timestamp-max valType="Int64">3942</timestamp-max>
+    <timestamp-max valType="Int64">5939</timestamp-max>
     <framework-build-version valType="String">23.1.153.0</framework-build-version>
     <external-version-string valType="String">2023 R1</external-version-string>
-    <last-saved-utc valType="String">06/11/2025 09:08:18</last-saved-utc>
+    <last-saved-utc valType="String">06/15/2025 00:34:36</last-saved-utc>
     <managed-categories valType="String">[report, misc, progress]</managed-categories>
     <logHistory valType="StringArray">
       <ArrayEntry Index="0">SingSongZep_@SINGSONGZEPF:C:\Users\SingSongZep_\AppData\Local\Temp\WorkbenchLogs\CoreEvents48256.log</ArrayEntry>
       <ArrayEntry Index="1">SingSongZep_@SINGSONGZEPF:C:\Users\SingSongZep_\AppData\Local\Temp\WorkbenchLogs\CoreEvents15652.log</ArrayEntry>
+      <ArrayEntry Index="2">SingSongZep_@SINGSONGZEPF:C:\Users\SingSongZep_\AppData\Local\Temp\WorkbenchLogs\CoreEvents8352.log</ArrayEntry>
+      <ArrayEntry Index="3">SingSongZep_@SINGSONGZEPF:C:\Users\SingSongZep_\AppData\Local\Temp\WorkbenchLogs\CoreEvents11296.log</ArrayEntry>
     </logHistory>
     <expression-scope-container valType="String">Parameters</expression-scope-container>
     <project-type valType="String">WB2</project-type>
@@ -65,7 +67,43 @@
 "15e64e17-11a1-414d-941c-58ad012d145e": "/FileContainer/FileReference:F11",
 "596ec3c9-7646-4ecf-9cf2-3ceb2b29fb28": "/FileContainer/FileReference:F12",
 "e8b5f5a5-71e2-44d3-a231-e73ecfc7419e": "/FileContainer/FileReference:F13",
-"cec4e3ed-5df3-48a4-b299-fe6857ce8b99": "/FileContainer/FileReference:F14"
+"cec4e3ed-5df3-48a4-b299-fe6857ce8b99": "/FileContainer/FileReference:F14",
+"164bf72a-cb6b-46c3-ba6b-dfb6f8e76b6a": "/Schematic/System:BG 12",
+"1d5a51b5-6475-4c4e-8e69-4aab13a8dc0f": "/Schematic/System:BG 13",
+"cd19f93e-5f58-4f61-a338-82038a10ccdf": "/Schematic/System:BG 14",
+"dc845212-c104-4c0d-b974-76cf64c3efd2": "/Schematic/System:BG 15",
+"b8d70145-9f50-4714-95fe-2a9f7062a7f1": "/Schematic/System:BG 16",
+"e02173cd-2160-4484-80f6-a086715476c4": "/Schematic/Component:Blade Design 12",
+"85bafdac-2048-400b-93be-e542ee6a453d": "/Schematic/System:BG 17",
+"ce83a657-e56b-4168-a520-09e88187e659": "/Schematic/Component:Blade Design 13",
+"e0ec1e3a-85cc-4f78-bfff-b9ca91eab99a": "/Schematic/System:BG 18",
+"046ab6be-725d-410e-929a-e878e89d16af": "/Schematic/Component:Blade Design 14",
+"e1d708fd-f335-4d1e-b0c3-c344dbfdba8e": "/Schematic/System:BG 19",
+"fcc28079-be8f-4d7a-9345-88f08162dee8": "/Schematic/Component:Blade Design 15",
+"ad6666c2-20f0-4caa-974d-6078ef121ced": "/Schematic/System:BG 20",
+"ab13a138-7a4d-4a7f-9837-0ac7202f5132": "/Schematic/Component:Blade Design 16",
+"b29ac996-6289-4147-babd-38de1d655d3b": "/Schematic/Component:Blade Design 17",
+"5879affe-32e9-4a45-bf82-8be6e342bee9": "/Schematic/System:BG 22",
+"aa3411fd-0a0f-4b04-9a6e-45002aa473e6": "/Schematic/Component:Blade Design 18",
+"f3e66122-376a-400d-82d6-219193485d71": "/Schematic/System:BG 23",
+"97e0afda-82ee-49e8-a29d-3177078ba7fa": "/Schematic/Component:Blade Design 19",
+"357511cf-f248-4261-9087-ce9f8f6e220e": "/Schematic/Component:Blade Design 20",
+"d97d03e3-f723-48ca-892a-0a34e2bf71d2": "/Schematic/Component:Blade Design 22",
+"cd539e98-c627-4804-8778-11e97e0c144b": "/Schematic/Component:Blade Design 23",
+"6cd09e8d-d61a-475f-9ece-ed7834d2e3b1": "/FileContainer/FileReference:F15",
+"a3c0b603-4488-4fee-a73f-926c7ba921a4": "/FileContainer/FileReference:F16",
+"b7ae4569-fcb4-4bb3-b093-a824e51bcf32": "/FileContainer/FileReference:F17",
+"e2ed727b-0a52-4f57-bfab-52a01d6a9155": "/FileContainer/FileReference:F18",
+"fa926ae5-8280-49d6-b41e-2fa62eccd11b": "/FileContainer/FileReference:F19",
+"94522510-5891-44ed-b76a-fa46f53bbac0": "/FileContainer/FileReference:F20",
+"da3e9061-64a5-4be8-bdd0-457e722f4bde": "/FileContainer/FileReference:F21",
+"1d902aa7-4059-482a-8169-80c12c526055": "/FileContainer/FileReference:F22",
+"dcad42f8-d32c-4b9b-a263-a9ecdbe819f8": "/FileContainer/FileReference:F23",
+"cf10817f-db5a-4cd3-9528-adbfa1972557": "/FileContainer/FileReference:F24",
+"95d870ab-b34b-4ea8-a030-e3ed355ef951": "/Schematic/System:BG 21",
+"ab4ecba3-e9ed-43cf-9ecb-074b24c3386c": "/Schematic/Component:Blade Design 21",
+"c6e425cc-fbdb-43ba-9365-72d38bbba98b": "/FileContainer/FileReference:F25",
+"cdd11852-ed8b-439e-b5d9-503cd23ca81d": "/FileContainer/FileReference:F26"
 }</ReferenceList>
       </ProjectReferenceList>
       <DesignPointReferenceListCollection>
@@ -82,7 +120,19 @@
 "2a694624-12c8-474a-b055-9c29e4c36fe6": "/Blade Design 9/TurboGeometryProperties:Blade Design 9 Source",
 "4944953f-b026-44db-872c-44e9fede6846": "/Blade Design 10/TurboGeometryProperties:Blade Design 10 Source",
 "483b6fdb-bc31-4faa-bb96-2fe3001c3257": "/Blade Design 11/TurboGeometryProperties:Blade Design 11 Source",
-"119b0d83-ba44-4f23-8d40-5d15f0fdf0c8": "/Blade Design 3/TurboGeometryProperties:Blade Design 3 Source"
+"119b0d83-ba44-4f23-8d40-5d15f0fdf0c8": "/Blade Design 3/TurboGeometryProperties:Blade Design 3 Source",
+"87541d2a-898c-4a7c-98c1-e8de57a76aad": "/Blade Design 12/TurboGeometryProperties:Blade Design 12 Source",
+"576e5914-c318-421a-86c6-5072b93f2788": "/Blade Design 13/TurboGeometryProperties:Blade Design 12 Source",
+"0a38efbb-353a-4d1b-9560-559e99a2721e": "/Blade Design 14/TurboGeometryProperties:Blade Design 14 Source",
+"429c00c0-3d3e-4d56-87db-b6f1d312cd56": "/Blade Design 15/TurboGeometryProperties:Blade Design 15 Source",
+"f5b0659e-5022-4d81-986f-c967f270030b": "/Blade Design 16/TurboGeometryProperties:Blade Design 16 Source",
+"b8ddcf02-0abc-4ce6-836d-bd69c07772ee": "/Blade Design 17/TurboGeometryProperties:Blade Design 17 Source",
+"938f7312-0138-496b-b110-ae4a30d9a654": "/Blade Design 18/TurboGeometryProperties:Blade Design 18 Source",
+"8c41b8cc-e7ae-4c05-9436-e8fe8be13e6e": "/Blade Design 19/TurboGeometryProperties:Blade Design 19 Source",
+"3b5cfd7e-e86b-48ec-8ec1-dc47ade30fce": "/Blade Design 20/TurboGeometryProperties:Blade Design 20 Source",
+"be8e37a4-d303-4d83-883d-1d5dc469bea8": "/Blade Design 22/TurboGeometryProperties:Blade Design 22 Source",
+"8df625de-1690-4e3b-966f-97f29e784268": "/Blade Design 23/TurboGeometryProperties:Blade Design 23 Source",
+"c7c9d055-3a2d-4c25-8685-d6f1fb68df10": "/Blade Design 21/TurboGeometryProperties:Blade Design 21 Source"
 }</ReferenceList>
         </DesignPointReferenceList>
       </DesignPointReferenceListCollection>
@@ -114,7 +164,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 3818, "Input": 1495, "Output": 1495}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 5793, "Input": 1495, "Output": 1495}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
       <Object Name="/FileContainer/FileReference:F1" Version="1.0">
@@ -125,7 +175,7 @@
       <Object Name="/FileContainer/FileReference:F2" Version="1.0">
         <class-type valType="String">FileReference</class-type>
         <object-name valType="String">F2</object-name>
-        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$1648eaa5-776d-4a15-9125-58d4fc562c90, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 16}</member-data>
+        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$1648eaa5-776d-4a15-9125-58d4fc562c90, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 34}</member-data>
       </Object>
       <Object Name="/FileContainer/FileReference:F3" Version="1.0">
         <class-type valType="String">FileReference</class-type>
@@ -187,13 +237,73 @@
         <object-name valType="String">F14</object-name>
         <member-data valType="String">{"DisplayText": "BG-11.bgd", "FileType": $$e3b39b9c-eea5-482e-bee8-867a6c37488c, "DependentFiles": [], "ContainerAssociations": ["Blade Design 11"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\BG-11\TS\BG-11.bgd", "ReferenceCount": 1}</member-data>
       </Object>
+      <Object Name="/FileContainer/FileReference:F15" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F15</object-name>
+        <member-data valType="String">{"DisplayText": "BG-12.bgd", "FileType": $$e3b39b9c-eea5-482e-bee8-867a6c37488c, "DependentFiles": [], "ContainerAssociations": ["Blade Design 12"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\BG-12\TS\BG-12.bgd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F16" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F16</object-name>
+        <member-data valType="String">{"DisplayText": "BG-13.bgd", "FileType": $$e3b39b9c-eea5-482e-bee8-867a6c37488c, "DependentFiles": [], "ContainerAssociations": ["Blade Design 13"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\BG-13\TS\BG-13.bgd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F17" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F17</object-name>
+        <member-data valType="String">{"DisplayText": "BG-14.bgd", "FileType": $$e3b39b9c-eea5-482e-bee8-867a6c37488c, "DependentFiles": [], "ContainerAssociations": ["Blade Design 14"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\BG-14\TS\BG-14.bgd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F18" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F18</object-name>
+        <member-data valType="String">{"DisplayText": "BG-15.bgd", "FileType": $$e3b39b9c-eea5-482e-bee8-867a6c37488c, "DependentFiles": [], "ContainerAssociations": ["Blade Design 15"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\BG-15\TS\BG-15.bgd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F19" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F19</object-name>
+        <member-data valType="String">{"DisplayText": "BG-16.bgd", "FileType": $$e3b39b9c-eea5-482e-bee8-867a6c37488c, "DependentFiles": [], "ContainerAssociations": ["Blade Design 16"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\BG-16\TS\BG-16.bgd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F20" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F20</object-name>
+        <member-data valType="String">{"DisplayText": "BG-17.bgd", "FileType": $$e3b39b9c-eea5-482e-bee8-867a6c37488c, "DependentFiles": [], "ContainerAssociations": ["Blade Design 17"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\BG-17\TS\BG-17.bgd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F21" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F21</object-name>
+        <member-data valType="String">{"DisplayText": "BG-18.bgd", "FileType": $$e3b39b9c-eea5-482e-bee8-867a6c37488c, "DependentFiles": [], "ContainerAssociations": ["Blade Design 18"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\BG-18\TS\BG-18.bgd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F22" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F22</object-name>
+        <member-data valType="String">{"DisplayText": "BG-19.bgd", "FileType": $$e3b39b9c-eea5-482e-bee8-867a6c37488c, "DependentFiles": [], "ContainerAssociations": ["Blade Design 19"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\BG-19\TS\BG-19.bgd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F23" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F23</object-name>
+        <member-data valType="String">{"DisplayText": "BG-20.bgd", "FileType": $$e3b39b9c-eea5-482e-bee8-867a6c37488c, "DependentFiles": [], "ContainerAssociations": ["Blade Design 20"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\BG-20\TS\BG-20.bgd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F24" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F24</object-name>
+        <member-data valType="String">{"DisplayText": "BG-24.bgd", "FileType": $$e3b39b9c-eea5-482e-bee8-867a6c37488c, "DependentFiles": [], "ContainerAssociations": ["Blade Design 21"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\BG-24\TS\BG-24.bgd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F25" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F25</object-name>
+        <member-data valType="String">{"DisplayText": "BG-22.bgd", "FileType": $$e3b39b9c-eea5-482e-bee8-867a6c37488c, "DependentFiles": [], "ContainerAssociations": ["Blade Design 22"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\BG-22\TS\BG-22.bgd", "ReferenceCount": 1}</member-data>
+      </Object>
+      <Object Name="/FileContainer/FileReference:F26" Version="1.0">
+        <class-type valType="String">FileReference</class-type>
+        <object-name valType="String">F26</object-name>
+        <member-data valType="String">{"DisplayText": "BG-23.bgd", "FileType": $$e3b39b9c-eea5-482e-bee8-867a6c37488c, "DependentFiles": [], "ContainerAssociations": ["Blade Design 23"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\BG-23\TS\BG-23.bgd", "ReferenceCount": 1}</member-data>
+      </Object>
     </Container>
     <Container Name="Messages" Version="1.0">
       <container-type valType="String">Project:Messages</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 3593, "Input": 1496, "Output": 1496}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 4041, "Input": 1496, "Output": 1496}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
       <Object Name="/Messages/StoredMessage:Message" Version="1.0">
@@ -208,6 +318,22 @@
    在 Ansys.Core.Commands.Concurrency.BaseWorkUnit.Execute(IExecutionEngineCallback executionEngine, Boolean dontCatchExceptions)
 """, "Association": "", "DateTimeStamp": 06/10/2025 22:21:49, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
       </Object>
+      <Object Name="/Messages/StoredMessage:Message 1" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 1</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "An unexpected error has occurred: Object reference not set to an instance of an object.", "Details": """System.NullReferenceException: Object reference not set to an instance of an object.
+   at Ansys.UI.Toolkit.DiagramHighlightOverlay.get_Bounds()
+   at Ansys.ProjectSchematic.View.BoxSelection.SelectSystemsUnderSelectionBox()
+   at Ansys.ProjectSchematic.View.BoxSelection._diagram_MouseUp(Object sender, MouseEventArgs args)
+   at Ansys.UI.Toolkit.Control.OnMouseUp(MouseEventArgs args)
+   at Ansys.UI.Toolkit.Diagram.OnMouseUp(MouseEventArgs args)
+   at Ansys.UI.Toolkit.SWF.Control.OnMouseUp(Object sender, MouseEventArgs e)
+   at System.Windows.Forms.Control.OnMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message&amp; m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message&amp; m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+""", "Association": "", "DateTimeStamp": 06/14/2025 23:48:46, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
     </Container>
     <Container Name="Parameters" Version="1.0">
       <container-type valType="String">Ansys.ParameterManager.ParameterManagerAddin:parameters</container-type>
@@ -216,7 +342,7 @@
       <maxUpdateOrder valType="Double">1</maxUpdateOrder>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 3941, "Input": 3942, "Output": 1499}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 5938, "Input": 5939, "Output": 1499}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Parameters/DesignPoint:0" Version="1.0">
@@ -237,7 +363,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 3376, "Input": 3367, "Output": 1502}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 5709, "Input": 5915, "Output": 1502}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Schematic/System:BG" Version="1.0">
@@ -285,31 +411,103 @@
       <Object Name="/Schematic/System:BG 7" Version="1.0">
         <class-type valType="String">System</class-type>
         <object-name valType="String">BG 7</object-name>
-        <member-data valType="String">{"DisplayText": "LV_9_ROTOR", "Components": [$$f4dad21d-fea2-4661-820b-361bd88517e2], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$f4dad21d-fea2-4661-820b-361bd88517e2], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 7"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-7", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [], "LayoutIndex": 0}</member-data>
+        <member-data valType="String">{"DisplayText": "LV_9_ROTOR", "Components": [$$f4dad21d-fea2-4661-820b-361bd88517e2], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$f4dad21d-fea2-4661-820b-361bd88517e2], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 7"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-7", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [$$164bf72a-cb6b-46c3-ba6b-dfb6f8e76b6a], "LayoutIndex": 0}</member-data>
         <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Schematic/System:BG 8" Version="1.0">
         <class-type valType="String">System</class-type>
         <object-name valType="String">BG 8</object-name>
-        <member-data valType="String">{"DisplayText": "LV_10_ROTOR", "Components": [$$a5d98d7b-657a-4a70-8fbe-fbd005f102b3], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$a5d98d7b-657a-4a70-8fbe-fbd005f102b3], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 8"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-8", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [], "LayoutIndex": 0}</member-data>
+        <member-data valType="String">{"DisplayText": "LV_10_ROTOR", "Components": [$$a5d98d7b-657a-4a70-8fbe-fbd005f102b3], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$a5d98d7b-657a-4a70-8fbe-fbd005f102b3], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 8"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-8", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [$$1d5a51b5-6475-4c4e-8e69-4aab13a8dc0f], "LayoutIndex": 0}</member-data>
         <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Schematic/System:BG 9" Version="1.0">
         <class-type valType="String">System</class-type>
         <object-name valType="String">BG 9</object-name>
-        <member-data valType="String">{"DisplayText": "LV_11_ROTOR", "Components": [$$27e649f4-dffe-4cda-af53-0710143c19d0], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$27e649f4-dffe-4cda-af53-0710143c19d0], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 9"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-9", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [], "LayoutIndex": 0}</member-data>
+        <member-data valType="String">{"DisplayText": "LV_11_ROTOR", "Components": [$$27e649f4-dffe-4cda-af53-0710143c19d0], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$27e649f4-dffe-4cda-af53-0710143c19d0], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 9"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-9", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [$$cd19f93e-5f58-4f61-a338-82038a10ccdf], "LayoutIndex": 0}</member-data>
         <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Schematic/System:BG 10" Version="1.0">
         <class-type valType="String">System</class-type>
         <object-name valType="String">BG 10</object-name>
-        <member-data valType="String">{"DisplayText": "LV_12_ROTOR", "Components": [$$f92cb530-4ba3-4874-9195-8af8b2c6d320], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$f92cb530-4ba3-4874-9195-8af8b2c6d320], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 10"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-10", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [], "LayoutIndex": 0}</member-data>
+        <member-data valType="String">{"DisplayText": "LV_12_ROTOR", "Components": [$$f92cb530-4ba3-4874-9195-8af8b2c6d320], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$f92cb530-4ba3-4874-9195-8af8b2c6d320], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 10"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-10", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [$$dc845212-c104-4c0d-b974-76cf64c3efd2], "LayoutIndex": 0}</member-data>
         <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Schematic/System:BG 11" Version="1.0">
         <class-type valType="String">System</class-type>
         <object-name valType="String">BG 11</object-name>
-        <member-data valType="String">{"DisplayText": "LV_13_ROTOR", "Components": [$$53e164ac-8eb4-42a2-9e0b-5a75d3a849ee], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$53e164ac-8eb4-42a2-9e0b-5a75d3a849ee], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 11"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-11", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [], "LayoutIndex": 0}</member-data>
+        <member-data valType="String">{"DisplayText": "LV_13_ROTOR", "Components": [$$53e164ac-8eb4-42a2-9e0b-5a75d3a849ee], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$53e164ac-8eb4-42a2-9e0b-5a75d3a849ee], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 11"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-11", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [$$b8d70145-9f50-4714-95fe-2a9f7062a7f1], "LayoutIndex": 0}</member-data>
+        <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
+      </Object>
+      <Object Name="/Schematic/System:BG 12" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">BG 12</object-name>
+        <member-data valType="String">{"DisplayText": "LV_2_STATOR", "Components": [$$e02173cd-2160-4484-80f6-a086715476c4], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$e02173cd-2160-4484-80f6-a086715476c4], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 12"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-12", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [$$85bafdac-2048-400b-93be-e542ee6a453d], "LayoutIndex": 6}</member-data>
+        <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
+      </Object>
+      <Object Name="/Schematic/System:BG 13" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">BG 13</object-name>
+        <member-data valType="String">{"DisplayText": "LV_3_STATOR", "Components": [$$ce83a657-e56b-4168-a520-09e88187e659], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$ce83a657-e56b-4168-a520-09e88187e659], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 13"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-13", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [$$e0ec1e3a-85cc-4f78-bfff-b9ca91eab99a], "LayoutIndex": 7}</member-data>
+        <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
+      </Object>
+      <Object Name="/Schematic/System:BG 14" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">BG 14</object-name>
+        <member-data valType="String">{"DisplayText": "LV_4_STATOR", "Components": [$$046ab6be-725d-410e-929a-e878e89d16af], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$046ab6be-725d-410e-929a-e878e89d16af], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 14"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-14", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [$$e1d708fd-f335-4d1e-b0c3-c344dbfdba8e], "LayoutIndex": 0}</member-data>
+        <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
+      </Object>
+      <Object Name="/Schematic/System:BG 15" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">BG 15</object-name>
+        <member-data valType="String">{"DisplayText": "LV_5_STATOR", "Components": [$$fcc28079-be8f-4d7a-9345-88f08162dee8], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$fcc28079-be8f-4d7a-9345-88f08162dee8], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 15"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-15", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [$$ad6666c2-20f0-4caa-974d-6078ef121ced], "LayoutIndex": 0}</member-data>
+        <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
+      </Object>
+      <Object Name="/Schematic/System:BG 16" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">BG 16</object-name>
+        <member-data valType="String">{"DisplayText": "LV_6_STATOR", "Components": [$$ab13a138-7a4d-4a7f-9837-0ac7202f5132], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$ab13a138-7a4d-4a7f-9837-0ac7202f5132], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 16"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-16", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [$$95d870ab-b34b-4ea8-a030-e3ed355ef951], "LayoutIndex": 0}</member-data>
+        <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
+      </Object>
+      <Object Name="/Schematic/System:BG 17" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">BG 17</object-name>
+        <member-data valType="String">{"DisplayText": "LV_7_STATOR", "Components": [$$b29ac996-6289-4147-babd-38de1d655d3b], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$b29ac996-6289-4147-babd-38de1d655d3b], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 17"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-17", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [$$5879affe-32e9-4a45-bf82-8be6e342bee9], "LayoutIndex": 0}</member-data>
+        <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
+      </Object>
+      <Object Name="/Schematic/System:BG 18" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">BG 18</object-name>
+        <member-data valType="String">{"DisplayText": "LV_8_STATOR", "Components": [$$aa3411fd-0a0f-4b04-9a6e-45002aa473e6], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$aa3411fd-0a0f-4b04-9a6e-45002aa473e6], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 18"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-18", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [$$f3e66122-376a-400d-82d6-219193485d71], "LayoutIndex": 0}</member-data>
+        <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
+      </Object>
+      <Object Name="/Schematic/System:BG 19" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">BG 19</object-name>
+        <member-data valType="String">{"DisplayText": "LV_9_STATOR", "Components": [$$97e0afda-82ee-49e8-a29d-3177078ba7fa], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$97e0afda-82ee-49e8-a29d-3177078ba7fa], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 19"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-19", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [], "LayoutIndex": 0}</member-data>
+        <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
+      </Object>
+      <Object Name="/Schematic/System:BG 20" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">BG 20</object-name>
+        <member-data valType="String">{"DisplayText": "LV_10_STATOR", "Components": [$$357511cf-f248-4261-9087-ce9f8f6e220e], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$357511cf-f248-4261-9087-ce9f8f6e220e], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 20"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-20", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [], "LayoutIndex": 0}</member-data>
+        <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
+      </Object>
+      <Object Name="/Schematic/System:BG 21" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">BG 21</object-name>
+        <member-data valType="String">{"DisplayText": "LV_11_STATOR", "Components": [$$ab4ecba3-e9ed-43cf-9ecb-074b24c3386c], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$ab4ecba3-e9ed-43cf-9ecb-074b24c3386c], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 21"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-24", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [], "LayoutIndex": 0}</member-data>
+        <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
+      </Object>
+      <Object Name="/Schematic/System:BG 22" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">BG 22</object-name>
+        <member-data valType="String">{"DisplayText": "LV_12_STATOR", "Components": [$$d97d03e3-f723-48ca-892a-0a34e2bf71d2], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$d97d03e3-f723-48ca-892a-0a34e2bf71d2], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 22"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-22", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [], "LayoutIndex": 0}</member-data>
+        <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
+      </Object>
+      <Object Name="/Schematic/System:BG 23" Version="1.0">
+        <class-type valType="String">System</class-type>
+        <object-name valType="String">BG 23</object-name>
+        <member-data valType="String">{"DisplayText": "LV_13_STATOR", "Components": [$$cd539e98-c627-4804-8778-11e97e0c144b], "ComponentGroups": [], "SystemVisible": True, "RequiredComponents": [$$cd539e98-c627-4804-8778-11e97e0c144b], "ExcludedComponentTemplates": [], "Attributes": {"PhysicsType": None, "AnalysisType": None, "SolverType": None, "SystemName": "BladeGen", "VOLATILE:SystemName": "BG 23"}, "SystemType": "BladeGen", "HeaderText": "BladeGen", "SystemTypeAbbreviation": "BG", "UniqueSystemDirectoryName": "BG-23", "Physics": [], "AnalysisType": None, "SystemHelpId": "wb2sb_bladegenapp", "AdditionalSystemHelpId": None, "IsParametric": False, "CreatedFromTemplate": $$f91c38b6-c69d-4b7c-b416-873657d2c0ca, "Notes": None, "LayoutChildren": [], "LayoutIndex": 0}</member-data>
         <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Schematic/SchematicSettings:Schematic Settings" Version="1.0">
@@ -432,6 +630,66 @@
         <object-name valType="String">Blade Design 11</object-name>
         <member-data valType="String">{"DisplayText": "Blade Design", "ImageName": "BladeGen", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Blade Design 11", "_overwrittenUpdatable": None, "Template": $$ad9927b6-8200-46f0-b802-bd88af8a43a2, "InSystem": $$b1c8b9b1-6f99-460f-9a87-429fb01b4a31, "MasterSources": {"Sources": []}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
       </Object>
+      <Object Name="/Schematic/Component:Blade Design 12" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Blade Design 12</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design", "ImageName": "BladeGen", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Blade Design 12", "_overwrittenUpdatable": None, "Template": $$ad9927b6-8200-46f0-b802-bd88af8a43a2, "InSystem": $$164bf72a-cb6b-46c3-ba6b-dfb6f8e76b6a, "MasterSources": {"Sources": []}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Blade Design 13" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Blade Design 13</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design", "ImageName": "BladeGen", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Blade Design 13", "_overwrittenUpdatable": None, "Template": $$ad9927b6-8200-46f0-b802-bd88af8a43a2, "InSystem": $$1d5a51b5-6475-4c4e-8e69-4aab13a8dc0f, "MasterSources": {"Sources": []}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Blade Design 14" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Blade Design 14</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design", "ImageName": "BladeGen", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Blade Design 14", "_overwrittenUpdatable": None, "Template": $$ad9927b6-8200-46f0-b802-bd88af8a43a2, "InSystem": $$cd19f93e-5f58-4f61-a338-82038a10ccdf, "MasterSources": {"Sources": []}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Blade Design 15" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Blade Design 15</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design", "ImageName": "BladeGen", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Blade Design 15", "_overwrittenUpdatable": None, "Template": $$ad9927b6-8200-46f0-b802-bd88af8a43a2, "InSystem": $$dc845212-c104-4c0d-b974-76cf64c3efd2, "MasterSources": {"Sources": []}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Blade Design 16" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Blade Design 16</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design", "ImageName": "BladeGen", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Blade Design 16", "_overwrittenUpdatable": None, "Template": $$ad9927b6-8200-46f0-b802-bd88af8a43a2, "InSystem": $$b8d70145-9f50-4714-95fe-2a9f7062a7f1, "MasterSources": {"Sources": []}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Blade Design 17" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Blade Design 17</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design", "ImageName": "BladeGen", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Blade Design 17", "_overwrittenUpdatable": None, "Template": $$ad9927b6-8200-46f0-b802-bd88af8a43a2, "InSystem": $$85bafdac-2048-400b-93be-e542ee6a453d, "MasterSources": {"Sources": []}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Blade Design 18" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Blade Design 18</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design", "ImageName": "BladeGen", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Blade Design 18", "_overwrittenUpdatable": None, "Template": $$ad9927b6-8200-46f0-b802-bd88af8a43a2, "InSystem": $$e0ec1e3a-85cc-4f78-bfff-b9ca91eab99a, "MasterSources": {"Sources": []}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Blade Design 19" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Blade Design 19</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design", "ImageName": "BladeGen", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Blade Design 19", "_overwrittenUpdatable": None, "Template": $$ad9927b6-8200-46f0-b802-bd88af8a43a2, "InSystem": $$e1d708fd-f335-4d1e-b0c3-c344dbfdba8e, "MasterSources": {"Sources": []}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Blade Design 20" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Blade Design 20</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design", "ImageName": "BladeGen", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Blade Design 20", "_overwrittenUpdatable": None, "Template": $$ad9927b6-8200-46f0-b802-bd88af8a43a2, "InSystem": $$ad6666c2-20f0-4caa-974d-6078ef121ced, "MasterSources": {"Sources": []}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Blade Design 21" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Blade Design 21</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design", "ImageName": "BladeGen", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Blade Design 21", "_overwrittenUpdatable": None, "Template": $$ad9927b6-8200-46f0-b802-bd88af8a43a2, "InSystem": $$95d870ab-b34b-4ea8-a030-e3ed355ef951, "MasterSources": {"Sources": []}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Blade Design 22" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Blade Design 22</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design", "ImageName": "BladeGen", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Blade Design 22", "_overwrittenUpdatable": None, "Template": $$ad9927b6-8200-46f0-b802-bd88af8a43a2, "InSystem": $$5879affe-32e9-4a45-bf82-8be6e342bee9, "MasterSources": {"Sources": []}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
+      <Object Name="/Schematic/Component:Blade Design 23" Version="1.0">
+        <class-type valType="String">Component</class-type>
+        <object-name valType="String">Blade Design 23</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design", "ImageName": "BladeGen", "ComponentStateOnLastFailure": "UpToDate", "AlwaysBePartOfDpUpdate": False, "FullyUpToDateOnDps": None, "CoupledClients": [], "SubComponents": [], "DataSharedFrom": None, "DataSharing": "None", "DataContainer": "Blade Design 23", "_overwrittenUpdatable": None, "Template": $$ad9927b6-8200-46f0-b802-bd88af8a43a2, "InSystem": $$f3e66122-376a-400d-82d6-219193485d71, "MasterSources": {"Sources": []}, "Notes": None, "UsedLicenses": None, "ActiveTransferComponents": [], "Solver": "", "IsFailedState": False, "UpdateConditionParameter": None}</member-data>
+      </Object>
     </Container>
     <Container Name="ReportDataContainer" Version="1.0">
       <container-type valType="String">Ansys.ProjectReporting.Addin:ReportDataContainer</container-type>
@@ -449,7 +707,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 1827, "Input": 1827, "Output": 1827}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 5159, "Input": 1827, "Output": 1827}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
     </Container>

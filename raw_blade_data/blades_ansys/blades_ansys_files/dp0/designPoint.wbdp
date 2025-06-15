@@ -10,7 +10,7 @@
     <Addin Name="Ansys.TurboSystem.TSBase.TSBaseAddin" Version="23.1.153.0" />
   </Addins>
   <Containers>
-    <container-map valType="String">{"Scopes": Ansys.ParameterManager.ParameterManagerAddin:scopes, "Blade Design": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 1": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 2": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 3": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 4": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 5": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 6": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 7": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 8": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 9": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 10": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 11": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry"}</container-map>
+    <container-map valType="String">{"Scopes": Ansys.ParameterManager.ParameterManagerAddin:scopes, "Blade Design": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 1": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 2": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 3": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 4": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 5": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 6": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 7": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 8": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 9": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 10": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 11": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 12": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 13": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 14": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 15": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 16": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 17": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 18": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 19": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 20": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 21": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 22": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry", "Blade Design 23": "Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry"}</container-map>
     <static-container-ids valType="String">{"Scopes": Scopes}</static-container-ids>
     <Container Name="Scopes" Version="1.0">
       <container-type valType="String">Ansys.ParameterManager.ParameterManagerAddin:scopes</container-type>
@@ -385,6 +385,367 @@
         <class-type valType="String">VistaGeometry</class-type>
         <object-name valType="String">Blade Design 11 Provider</object-name>
         <member-data valType="String">{"DisplayText": "Blade Design 11 Provider", "DataSourceRef": $$483b6fdb-bc31-4faa-bb96-2fe3001c3257, "DataConnections": {}, "GeoData": None, "TransferData": None}</member-data>
+      </Object>
+    </Container>
+    <Container Name="Blade Design 12" Version="1.0">
+      <container-type valType="String">Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">4421</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 3984, "Input": 4420, "Output": 3980}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <unique-system-dir valType="String">BG-12</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Blade Design 12/TurboGeometryProperties:Blade Design 12 Source" Version="1.0">
+        <class-type valType="String">TurboGeometryProperties</class-type>
+        <object-name valType="String">Blade Design 12 Source</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 12 Source", "DataLinks": {}, "UpstreamContainersRemovedSinceRefresh": False, "State": "UpToDate", "ForceRefresh": False, "CreateHub": False, "CreateAllBlades": False, "MergeBladeTopology": True, "BladeLoftOption": "Streamwise", "ShroudClearance": "None", "LayerNumber": 1, "CreateFluidZone": True, "CreateNamedSelections": True, "BladeExt": 2, "PeriodicSurfExt": 5, "PeriodicSurfOption": "ThreePieces", "BGCaseFile": $$6cd09e8d-d61a-475f-9ece-ed7834d2e3b1, "FileName": None, "NDFFile": None, "LastModified": "1/1/0001 12:00:00 AM", "GeometryTransferOption": "BGD", "MachineType": "CentrifugalCompressor", "ModelUnits": "mm", "StreamwiseCount": 20, "SpanwiseCount": 4}</member-data>
+      </Object>
+      <Object Name="/Blade Design 12/TurboGeometry:Blade Design 12 Provider" Version="1.0">
+        <class-type valType="String">TurboGeometry</class-type>
+        <object-name valType="String">Blade Design 12 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 12 Provider", "DataSourceRef": $$87541d2a-898c-4a7c-98c1-e8de57a76aad, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 12/NDFGeometry:Blade Design 12 Provider" Version="1.0">
+        <class-type valType="String">NDFGeometry</class-type>
+        <object-name valType="String">Blade Design 12 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 12 Provider", "DataSourceRef": $$87541d2a-898c-4a7c-98c1-e8de57a76aad, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 12/VistaGeometry:Blade Design 12 Provider" Version="1.0">
+        <class-type valType="String">VistaGeometry</class-type>
+        <object-name valType="String">Blade Design 12 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 12 Provider", "DataSourceRef": $$87541d2a-898c-4a7c-98c1-e8de57a76aad, "DataConnections": {}, "GeoData": None, "TransferData": None}</member-data>
+      </Object>
+    </Container>
+    <Container Name="Blade Design 13" Version="1.0">
+      <container-type valType="String">Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">5408</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 4022, "Input": 5407, "Output": 4014}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "DpdbContainer": 0, "Scopes": 0, "Blade Design": 2984, "Blade Design 1": 2996, "Blade Design 2": 3002, "Blade Design 3": 3939, "Blade Design 4": 3549, "Blade Design 5": 3601, "Blade Design 6": 3632, "Blade Design 7": 3697, "Blade Design 8": 3740, "Blade Design 9": 3775, "Blade Design 10": 3816, "Blade Design 11": 3933, "Blade Design 12": 0, "Blade Design 13": 0}</last-update-regen-times>
+      <unique-system-dir valType="String">BG-13</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Blade Design 13/TurboGeometryProperties:Blade Design 12 Source" Version="1.0">
+        <class-type valType="String">TurboGeometryProperties</class-type>
+        <object-name valType="String">Blade Design 12 Source</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 12 Source", "DataLinks": {}, "UpstreamContainersRemovedSinceRefresh": False, "State": "UpToDate", "ForceRefresh": False, "CreateHub": False, "CreateAllBlades": False, "MergeBladeTopology": True, "BladeLoftOption": "Streamwise", "ShroudClearance": "None", "LayerNumber": 1, "CreateFluidZone": True, "CreateNamedSelections": True, "BladeExt": 2, "PeriodicSurfExt": 5, "PeriodicSurfOption": "ThreePieces", "BGCaseFile": $$a3c0b603-4488-4fee-a73f-926c7ba921a4, "FileName": None, "NDFFile": None, "LastModified": "1/1/0001 12:00:00 AM", "GeometryTransferOption": "BGD", "MachineType": "CentrifugalCompressor", "ModelUnits": "mm", "StreamwiseCount": 20, "SpanwiseCount": 4}</member-data>
+      </Object>
+      <Object Name="/Blade Design 13/TurboGeometry:Blade Design 12 Provider" Version="1.0">
+        <class-type valType="String">TurboGeometry</class-type>
+        <object-name valType="String">Blade Design 12 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 12 Provider", "DataSourceRef": $$576e5914-c318-421a-86c6-5072b93f2788, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 13/NDFGeometry:Blade Design 12 Provider" Version="1.0">
+        <class-type valType="String">NDFGeometry</class-type>
+        <object-name valType="String">Blade Design 12 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 12 Provider", "DataSourceRef": $$576e5914-c318-421a-86c6-5072b93f2788, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 13/VistaGeometry:Blade Design 12 Provider" Version="1.0">
+        <class-type valType="String">VistaGeometry</class-type>
+        <object-name valType="String">Blade Design 12 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 12 Provider", "DataSourceRef": $$576e5914-c318-421a-86c6-5072b93f2788, "DataConnections": {}, "GeoData": None, "TransferData": None}</member-data>
+      </Object>
+    </Container>
+    <Container Name="Blade Design 14" Version="1.0">
+      <container-type valType="String">Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">5410</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 4067, "Input": 5409, "Output": 4063}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <unique-system-dir valType="String">BG-14</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Blade Design 14/TurboGeometryProperties:Blade Design 14 Source" Version="1.0">
+        <class-type valType="String">TurboGeometryProperties</class-type>
+        <object-name valType="String">Blade Design 14 Source</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 14 Source", "DataLinks": {}, "UpstreamContainersRemovedSinceRefresh": False, "State": "UpToDate", "ForceRefresh": False, "CreateHub": False, "CreateAllBlades": False, "MergeBladeTopology": True, "BladeLoftOption": "Streamwise", "ShroudClearance": "None", "LayerNumber": 1, "CreateFluidZone": True, "CreateNamedSelections": True, "BladeExt": 2, "PeriodicSurfExt": 5, "PeriodicSurfOption": "ThreePieces", "BGCaseFile": $$b7ae4569-fcb4-4bb3-b093-a824e51bcf32, "FileName": None, "NDFFile": None, "LastModified": "1/1/0001 12:00:00 AM", "GeometryTransferOption": "BGD", "MachineType": "CentrifugalCompressor", "ModelUnits": "mm", "StreamwiseCount": 20, "SpanwiseCount": 4}</member-data>
+      </Object>
+      <Object Name="/Blade Design 14/TurboGeometry:Blade Design 14 Provider" Version="1.0">
+        <class-type valType="String">TurboGeometry</class-type>
+        <object-name valType="String">Blade Design 14 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 14 Provider", "DataSourceRef": $$0a38efbb-353a-4d1b-9560-559e99a2721e, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 14/NDFGeometry:Blade Design 14 Provider" Version="1.0">
+        <class-type valType="String">NDFGeometry</class-type>
+        <object-name valType="String">Blade Design 14 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 14 Provider", "DataSourceRef": $$0a38efbb-353a-4d1b-9560-559e99a2721e, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 14/VistaGeometry:Blade Design 14 Provider" Version="1.0">
+        <class-type valType="String">VistaGeometry</class-type>
+        <object-name valType="String">Blade Design 14 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 14 Provider", "DataSourceRef": $$0a38efbb-353a-4d1b-9560-559e99a2721e, "DataConnections": {}, "GeoData": None, "TransferData": None}</member-data>
+      </Object>
+    </Container>
+    <Container Name="Blade Design 15" Version="1.0">
+      <container-type valType="String">Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">5412</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 4096, "Input": 5411, "Output": 4092}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <unique-system-dir valType="String">BG-15</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Blade Design 15/TurboGeometryProperties:Blade Design 15 Source" Version="1.0">
+        <class-type valType="String">TurboGeometryProperties</class-type>
+        <object-name valType="String">Blade Design 15 Source</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 15 Source", "DataLinks": {}, "UpstreamContainersRemovedSinceRefresh": False, "State": "UpToDate", "ForceRefresh": False, "CreateHub": False, "CreateAllBlades": False, "MergeBladeTopology": True, "BladeLoftOption": "Streamwise", "ShroudClearance": "None", "LayerNumber": 1, "CreateFluidZone": True, "CreateNamedSelections": True, "BladeExt": 2, "PeriodicSurfExt": 5, "PeriodicSurfOption": "ThreePieces", "BGCaseFile": $$e2ed727b-0a52-4f57-bfab-52a01d6a9155, "FileName": None, "NDFFile": None, "LastModified": "1/1/0001 12:00:00 AM", "GeometryTransferOption": "BGD", "MachineType": "CentrifugalCompressor", "ModelUnits": "mm", "StreamwiseCount": 20, "SpanwiseCount": 4}</member-data>
+      </Object>
+      <Object Name="/Blade Design 15/TurboGeometry:Blade Design 15 Provider" Version="1.0">
+        <class-type valType="String">TurboGeometry</class-type>
+        <object-name valType="String">Blade Design 15 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 15 Provider", "DataSourceRef": $$429c00c0-3d3e-4d56-87db-b6f1d312cd56, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 15/NDFGeometry:Blade Design 15 Provider" Version="1.0">
+        <class-type valType="String">NDFGeometry</class-type>
+        <object-name valType="String">Blade Design 15 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 15 Provider", "DataSourceRef": $$429c00c0-3d3e-4d56-87db-b6f1d312cd56, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 15/VistaGeometry:Blade Design 15 Provider" Version="1.0">
+        <class-type valType="String">VistaGeometry</class-type>
+        <object-name valType="String">Blade Design 15 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 15 Provider", "DataSourceRef": $$429c00c0-3d3e-4d56-87db-b6f1d312cd56, "DataConnections": {}, "GeoData": None, "TransferData": None}</member-data>
+      </Object>
+    </Container>
+    <Container Name="Blade Design 16" Version="1.0">
+      <container-type valType="String">Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">5506</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 4125, "Input": 5505, "Output": 4121}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <unique-system-dir valType="String">BG-16</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Blade Design 16/TurboGeometryProperties:Blade Design 16 Source" Version="1.0">
+        <class-type valType="String">TurboGeometryProperties</class-type>
+        <object-name valType="String">Blade Design 16 Source</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 16 Source", "DataLinks": {}, "UpstreamContainersRemovedSinceRefresh": False, "State": "UpToDate", "ForceRefresh": False, "CreateHub": False, "CreateAllBlades": False, "MergeBladeTopology": True, "BladeLoftOption": "Streamwise", "ShroudClearance": "None", "LayerNumber": 1, "CreateFluidZone": True, "CreateNamedSelections": True, "BladeExt": 2, "PeriodicSurfExt": 5, "PeriodicSurfOption": "ThreePieces", "BGCaseFile": $$fa926ae5-8280-49d6-b41e-2fa62eccd11b, "FileName": None, "NDFFile": None, "LastModified": "1/1/0001 12:00:00 AM", "GeometryTransferOption": "BGD", "MachineType": "CentrifugalCompressor", "ModelUnits": "mm", "StreamwiseCount": 20, "SpanwiseCount": 4}</member-data>
+      </Object>
+      <Object Name="/Blade Design 16/TurboGeometry:Blade Design 16 Provider" Version="1.0">
+        <class-type valType="String">TurboGeometry</class-type>
+        <object-name valType="String">Blade Design 16 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 16 Provider", "DataSourceRef": $$f5b0659e-5022-4d81-986f-c967f270030b, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 16/NDFGeometry:Blade Design 16 Provider" Version="1.0">
+        <class-type valType="String">NDFGeometry</class-type>
+        <object-name valType="String">Blade Design 16 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 16 Provider", "DataSourceRef": $$f5b0659e-5022-4d81-986f-c967f270030b, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 16/VistaGeometry:Blade Design 16 Provider" Version="1.0">
+        <class-type valType="String">VistaGeometry</class-type>
+        <object-name valType="String">Blade Design 16 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 16 Provider", "DataSourceRef": $$f5b0659e-5022-4d81-986f-c967f270030b, "DataConnections": {}, "GeoData": None, "TransferData": None}</member-data>
+      </Object>
+    </Container>
+    <Container Name="Blade Design 17" Version="1.0">
+      <container-type valType="String">Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">5508</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 4154, "Input": 5507, "Output": 4150}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <unique-system-dir valType="String">BG-17</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Blade Design 17/TurboGeometryProperties:Blade Design 17 Source" Version="1.0">
+        <class-type valType="String">TurboGeometryProperties</class-type>
+        <object-name valType="String">Blade Design 17 Source</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 17 Source", "DataLinks": {}, "UpstreamContainersRemovedSinceRefresh": False, "State": "UpToDate", "ForceRefresh": False, "CreateHub": False, "CreateAllBlades": False, "MergeBladeTopology": True, "BladeLoftOption": "Streamwise", "ShroudClearance": "None", "LayerNumber": 1, "CreateFluidZone": True, "CreateNamedSelections": True, "BladeExt": 2, "PeriodicSurfExt": 5, "PeriodicSurfOption": "ThreePieces", "BGCaseFile": $$94522510-5891-44ed-b76a-fa46f53bbac0, "FileName": None, "NDFFile": None, "LastModified": "1/1/0001 12:00:00 AM", "GeometryTransferOption": "BGD", "MachineType": "CentrifugalCompressor", "ModelUnits": "mm", "StreamwiseCount": 20, "SpanwiseCount": 4}</member-data>
+      </Object>
+      <Object Name="/Blade Design 17/TurboGeometry:Blade Design 17 Provider" Version="1.0">
+        <class-type valType="String">TurboGeometry</class-type>
+        <object-name valType="String">Blade Design 17 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 17 Provider", "DataSourceRef": $$b8ddcf02-0abc-4ce6-836d-bd69c07772ee, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 17/NDFGeometry:Blade Design 17 Provider" Version="1.0">
+        <class-type valType="String">NDFGeometry</class-type>
+        <object-name valType="String">Blade Design 17 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 17 Provider", "DataSourceRef": $$b8ddcf02-0abc-4ce6-836d-bd69c07772ee, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 17/VistaGeometry:Blade Design 17 Provider" Version="1.0">
+        <class-type valType="String">VistaGeometry</class-type>
+        <object-name valType="String">Blade Design 17 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 17 Provider", "DataSourceRef": $$b8ddcf02-0abc-4ce6-836d-bd69c07772ee, "DataConnections": {}, "GeoData": None, "TransferData": None}</member-data>
+      </Object>
+    </Container>
+    <Container Name="Blade Design 18" Version="1.0">
+      <container-type valType="String">Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">5553</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 4183, "Input": 5552, "Output": 4179}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <unique-system-dir valType="String">BG-18</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Blade Design 18/TurboGeometryProperties:Blade Design 18 Source" Version="1.0">
+        <class-type valType="String">TurboGeometryProperties</class-type>
+        <object-name valType="String">Blade Design 18 Source</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 18 Source", "DataLinks": {}, "UpstreamContainersRemovedSinceRefresh": False, "State": "UpToDate", "ForceRefresh": False, "CreateHub": False, "CreateAllBlades": False, "MergeBladeTopology": True, "BladeLoftOption": "Streamwise", "ShroudClearance": "None", "LayerNumber": 1, "CreateFluidZone": True, "CreateNamedSelections": True, "BladeExt": 2, "PeriodicSurfExt": 5, "PeriodicSurfOption": "ThreePieces", "BGCaseFile": $$da3e9061-64a5-4be8-bdd0-457e722f4bde, "FileName": None, "NDFFile": None, "LastModified": "1/1/0001 12:00:00 AM", "GeometryTransferOption": "BGD", "MachineType": "CentrifugalCompressor", "ModelUnits": "mm", "StreamwiseCount": 20, "SpanwiseCount": 4}</member-data>
+      </Object>
+      <Object Name="/Blade Design 18/TurboGeometry:Blade Design 18 Provider" Version="1.0">
+        <class-type valType="String">TurboGeometry</class-type>
+        <object-name valType="String">Blade Design 18 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 18 Provider", "DataSourceRef": $$938f7312-0138-496b-b110-ae4a30d9a654, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 18/NDFGeometry:Blade Design 18 Provider" Version="1.0">
+        <class-type valType="String">NDFGeometry</class-type>
+        <object-name valType="String">Blade Design 18 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 18 Provider", "DataSourceRef": $$938f7312-0138-496b-b110-ae4a30d9a654, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 18/VistaGeometry:Blade Design 18 Provider" Version="1.0">
+        <class-type valType="String">VistaGeometry</class-type>
+        <object-name valType="String">Blade Design 18 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 18 Provider", "DataSourceRef": $$938f7312-0138-496b-b110-ae4a30d9a654, "DataConnections": {}, "GeoData": None, "TransferData": None}</member-data>
+      </Object>
+    </Container>
+    <Container Name="Blade Design 19" Version="1.0">
+      <container-type valType="String">Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">5582</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 4212, "Input": 5581, "Output": 4208}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <unique-system-dir valType="String">BG-19</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Blade Design 19/TurboGeometryProperties:Blade Design 19 Source" Version="1.0">
+        <class-type valType="String">TurboGeometryProperties</class-type>
+        <object-name valType="String">Blade Design 19 Source</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 19 Source", "DataLinks": {}, "UpstreamContainersRemovedSinceRefresh": False, "State": "UpToDate", "ForceRefresh": False, "CreateHub": False, "CreateAllBlades": False, "MergeBladeTopology": True, "BladeLoftOption": "Streamwise", "ShroudClearance": "None", "LayerNumber": 1, "CreateFluidZone": True, "CreateNamedSelections": True, "BladeExt": 2, "PeriodicSurfExt": 5, "PeriodicSurfOption": "ThreePieces", "BGCaseFile": $$1d902aa7-4059-482a-8169-80c12c526055, "FileName": None, "NDFFile": None, "LastModified": "1/1/0001 12:00:00 AM", "GeometryTransferOption": "BGD", "MachineType": "CentrifugalCompressor", "ModelUnits": "mm", "StreamwiseCount": 20, "SpanwiseCount": 4}</member-data>
+      </Object>
+      <Object Name="/Blade Design 19/TurboGeometry:Blade Design 19 Provider" Version="1.0">
+        <class-type valType="String">TurboGeometry</class-type>
+        <object-name valType="String">Blade Design 19 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 19 Provider", "DataSourceRef": $$8c41b8cc-e7ae-4c05-9436-e8fe8be13e6e, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 19/NDFGeometry:Blade Design 19 Provider" Version="1.0">
+        <class-type valType="String">NDFGeometry</class-type>
+        <object-name valType="String">Blade Design 19 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 19 Provider", "DataSourceRef": $$8c41b8cc-e7ae-4c05-9436-e8fe8be13e6e, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 19/VistaGeometry:Blade Design 19 Provider" Version="1.0">
+        <class-type valType="String">VistaGeometry</class-type>
+        <object-name valType="String">Blade Design 19 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 19 Provider", "DataSourceRef": $$8c41b8cc-e7ae-4c05-9436-e8fe8be13e6e, "DataConnections": {}, "GeoData": None, "TransferData": None}</member-data>
+      </Object>
+    </Container>
+    <Container Name="Blade Design 20" Version="1.0">
+      <container-type valType="String">Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">5918</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 4241, "Input": 5916, "Output": 4237}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <unique-system-dir valType="String">BG-20</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Blade Design 20/TurboGeometryProperties:Blade Design 20 Source" Version="1.0">
+        <class-type valType="String">TurboGeometryProperties</class-type>
+        <object-name valType="String">Blade Design 20 Source</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 20 Source", "DataLinks": {}, "UpstreamContainersRemovedSinceRefresh": False, "State": "UpToDate", "ForceRefresh": False, "CreateHub": False, "CreateAllBlades": False, "MergeBladeTopology": True, "BladeLoftOption": "Streamwise", "ShroudClearance": "None", "LayerNumber": 1, "CreateFluidZone": True, "CreateNamedSelections": True, "BladeExt": 2, "PeriodicSurfExt": 5, "PeriodicSurfOption": "ThreePieces", "BGCaseFile": $$dcad42f8-d32c-4b9b-a263-a9ecdbe819f8, "FileName": None, "NDFFile": None, "LastModified": "1/1/0001 12:00:00 AM", "GeometryTransferOption": "BGD", "MachineType": "CentrifugalCompressor", "ModelUnits": "mm", "StreamwiseCount": 20, "SpanwiseCount": 4}</member-data>
+      </Object>
+      <Object Name="/Blade Design 20/TurboGeometry:Blade Design 20 Provider" Version="1.0">
+        <class-type valType="String">TurboGeometry</class-type>
+        <object-name valType="String">Blade Design 20 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 20 Provider", "DataSourceRef": $$3b5cfd7e-e86b-48ec-8ec1-dc47ade30fce, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 20/NDFGeometry:Blade Design 20 Provider" Version="1.0">
+        <class-type valType="String">NDFGeometry</class-type>
+        <object-name valType="String">Blade Design 20 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 20 Provider", "DataSourceRef": $$3b5cfd7e-e86b-48ec-8ec1-dc47ade30fce, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 20/VistaGeometry:Blade Design 20 Provider" Version="1.0">
+        <class-type valType="String">VistaGeometry</class-type>
+        <object-name valType="String">Blade Design 20 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 20 Provider", "DataSourceRef": $$3b5cfd7e-e86b-48ec-8ec1-dc47ade30fce, "DataConnections": {}, "GeoData": None, "TransferData": None}</member-data>
+      </Object>
+    </Container>
+    <Container Name="Blade Design 21" Version="1.0">
+      <container-type valType="String">Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">5924</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 5699, "Input": 5922, "Output": 5695}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <unique-system-dir valType="String">BG-24</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Blade Design 21/TurboGeometryProperties:Blade Design 21 Source" Version="1.0">
+        <class-type valType="String">TurboGeometryProperties</class-type>
+        <object-name valType="String">Blade Design 21 Source</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 21 Source", "DataLinks": {}, "UpstreamContainersRemovedSinceRefresh": False, "State": "UpToDate", "ForceRefresh": False, "CreateHub": False, "CreateAllBlades": False, "MergeBladeTopology": True, "BladeLoftOption": "Streamwise", "ShroudClearance": "None", "LayerNumber": 1, "CreateFluidZone": True, "CreateNamedSelections": True, "BladeExt": 2, "PeriodicSurfExt": 5, "PeriodicSurfOption": "ThreePieces", "BGCaseFile": $$cf10817f-db5a-4cd3-9528-adbfa1972557, "FileName": None, "NDFFile": None, "LastModified": "1/1/0001 12:00:00 AM", "GeometryTransferOption": "BGD", "MachineType": "CentrifugalCompressor", "ModelUnits": "mm", "StreamwiseCount": 20, "SpanwiseCount": 4}</member-data>
+      </Object>
+      <Object Name="/Blade Design 21/TurboGeometry:Blade Design 21 Provider" Version="1.0">
+        <class-type valType="String">TurboGeometry</class-type>
+        <object-name valType="String">Blade Design 21 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 21 Provider", "DataSourceRef": $$c7c9d055-3a2d-4c25-8685-d6f1fb68df10, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 21/NDFGeometry:Blade Design 21 Provider" Version="1.0">
+        <class-type valType="String">NDFGeometry</class-type>
+        <object-name valType="String">Blade Design 21 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 21 Provider", "DataSourceRef": $$c7c9d055-3a2d-4c25-8685-d6f1fb68df10, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 21/VistaGeometry:Blade Design 21 Provider" Version="1.0">
+        <class-type valType="String">VistaGeometry</class-type>
+        <object-name valType="String">Blade Design 21 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 21 Provider", "DataSourceRef": $$c7c9d055-3a2d-4c25-8685-d6f1fb68df10, "DataConnections": {}, "GeoData": None, "TransferData": None}</member-data>
+      </Object>
+    </Container>
+    <Container Name="Blade Design 22" Version="1.0">
+      <container-type valType="String">Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">5930</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 4299, "Input": 5928, "Output": 4295}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <unique-system-dir valType="String">BG-22</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Blade Design 22/TurboGeometryProperties:Blade Design 22 Source" Version="1.0">
+        <class-type valType="String">TurboGeometryProperties</class-type>
+        <object-name valType="String">Blade Design 22 Source</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 22 Source", "DataLinks": {}, "UpstreamContainersRemovedSinceRefresh": False, "State": "UpToDate", "ForceRefresh": False, "CreateHub": False, "CreateAllBlades": False, "MergeBladeTopology": True, "BladeLoftOption": "Streamwise", "ShroudClearance": "None", "LayerNumber": 1, "CreateFluidZone": True, "CreateNamedSelections": True, "BladeExt": 2, "PeriodicSurfExt": 5, "PeriodicSurfOption": "ThreePieces", "BGCaseFile": $$c6e425cc-fbdb-43ba-9365-72d38bbba98b, "FileName": None, "NDFFile": None, "LastModified": "1/1/0001 12:00:00 AM", "GeometryTransferOption": "BGD", "MachineType": "CentrifugalCompressor", "ModelUnits": "mm", "StreamwiseCount": 20, "SpanwiseCount": 4}</member-data>
+      </Object>
+      <Object Name="/Blade Design 22/TurboGeometry:Blade Design 22 Provider" Version="1.0">
+        <class-type valType="String">TurboGeometry</class-type>
+        <object-name valType="String">Blade Design 22 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 22 Provider", "DataSourceRef": $$be8e37a4-d303-4d83-883d-1d5dc469bea8, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 22/NDFGeometry:Blade Design 22 Provider" Version="1.0">
+        <class-type valType="String">NDFGeometry</class-type>
+        <object-name valType="String">Blade Design 22 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 22 Provider", "DataSourceRef": $$be8e37a4-d303-4d83-883d-1d5dc469bea8, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 22/VistaGeometry:Blade Design 22 Provider" Version="1.0">
+        <class-type valType="String">VistaGeometry</class-type>
+        <object-name valType="String">Blade Design 22 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 22 Provider", "DataSourceRef": $$be8e37a4-d303-4d83-883d-1d5dc469bea8, "DataConnections": {}, "GeoData": None, "TransferData": None}</member-data>
+      </Object>
+    </Container>
+    <Container Name="Blade Design 23" Version="1.0">
+      <container-type valType="String">Ansys.TurboSystem.TSBase.TSBaseAddin:TS Geometry</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">5936</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 4328, "Input": 5934, "Output": 4324}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <unique-system-dir valType="String">BG-23</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Blade Design 23/TurboGeometryProperties:Blade Design 23 Source" Version="1.0">
+        <class-type valType="String">TurboGeometryProperties</class-type>
+        <object-name valType="String">Blade Design 23 Source</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 23 Source", "DataLinks": {}, "UpstreamContainersRemovedSinceRefresh": False, "State": "UpToDate", "ForceRefresh": False, "CreateHub": False, "CreateAllBlades": False, "MergeBladeTopology": True, "BladeLoftOption": "Streamwise", "ShroudClearance": "None", "LayerNumber": 1, "CreateFluidZone": True, "CreateNamedSelections": True, "BladeExt": 2, "PeriodicSurfExt": 5, "PeriodicSurfOption": "ThreePieces", "BGCaseFile": $$cdd11852-ed8b-439e-b5d9-503cd23ca81d, "FileName": None, "NDFFile": None, "LastModified": "1/1/0001 12:00:00 AM", "GeometryTransferOption": "BGD", "MachineType": "CentrifugalCompressor", "ModelUnits": "mm", "StreamwiseCount": 20, "SpanwiseCount": 4}</member-data>
+      </Object>
+      <Object Name="/Blade Design 23/TurboGeometry:Blade Design 23 Provider" Version="1.0">
+        <class-type valType="String">TurboGeometry</class-type>
+        <object-name valType="String">Blade Design 23 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 23 Provider", "DataSourceRef": $$8df625de-1690-4e3b-966f-97f29e784268, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 23/NDFGeometry:Blade Design 23 Provider" Version="1.0">
+        <class-type valType="String">NDFGeometry</class-type>
+        <object-name valType="String">Blade Design 23 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 23 Provider", "DataSourceRef": $$8df625de-1690-4e3b-966f-97f29e784268, "DataConnections": {}}</member-data>
+      </Object>
+      <Object Name="/Blade Design 23/VistaGeometry:Blade Design 23 Provider" Version="1.0">
+        <class-type valType="String">VistaGeometry</class-type>
+        <object-name valType="String">Blade Design 23 Provider</object-name>
+        <member-data valType="String">{"DisplayText": "Blade Design 23 Provider", "DataSourceRef": $$8df625de-1690-4e3b-966f-97f29e784268, "DataConnections": {}, "GeoData": None, "TransferData": None}</member-data>
       </Object>
     </Container>
   </Containers>

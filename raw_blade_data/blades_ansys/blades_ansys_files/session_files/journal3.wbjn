@@ -1,0 +1,180 @@
+# encoding: utf-8
+# 2023 R1
+SetScriptVersion(Version="23.1.153")
+template1 = GetTemplate(TemplateName="BladeGen")
+system1 = GetSystem(Name="BG 4")
+system2 = template1.CreateSystem(
+    Position="Below",
+    RelativeTo=system1)
+system3 = system2.Duplicate(
+    ComponentsToShare=[],
+    RelativeTo=system2)
+system3.Move(
+    Position="Below",
+    RelativeTo=system2)
+system4 = GetSystem(Name="BG 7")
+system2.Move(
+    Position="Right",
+    RelativeTo=system4)
+system5 = GetSystem(Name="BG 8")
+system3.Move(
+    Position="Right",
+    RelativeTo=system5)
+system2.DisplayText = "LV_2_STATOR"
+system3.DisplayText = "LV_3_STATOR"
+Refresh()
+system6 = GetSystem(Name="BG 9")
+system3.Move(
+    Position="Right",
+    RelativeTo=system6)
+system3.Move(
+    Position="Right",
+    RelativeTo=system5)
+system7 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system6)
+system8 = GetSystem(Name="BG 10")
+system9 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system8)
+system10 = GetSystem(Name="BG 11")
+system11 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system10)
+system12 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system2)
+system13 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system3)
+system14 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system7)
+system15 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system9)
+system16 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system11)
+system17 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system12)
+system18 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system13)
+system7.DisplayText = "LV_4_STATOR"
+system9.DisplayText = "LV_5_STATOR"
+system11.DisplayText = "LV_6_STATOR"
+system12.DisplayText = "LV_7_STATOR"
+system13.DisplayText = "LV_8_STATOR"
+system14.DisplayText = "LV_9_STATOR"
+Save(Overwrite=True)
+system15.DisplayText = "LV_10_STATOR"
+system16.DisplayText = "LV_11_STATOR"
+system17.DisplayText = "LV_12_STATOR"
+system18.DisplayText = "LV_13_STATOR"
+bladeDesign1 = system2.GetContainer(ComponentName="Blade Design")
+bladeDesign1.Edit()
+Save(Overwrite=True)
+bladeDesign1.Exit()
+bladeDesign2 = system3.GetContainer(ComponentName="Blade Design")
+bladeDesign2.Edit()
+bladeDesign2.Exit()
+bladeDesign1.Edit()
+bladeDesign1.Exit()
+bladeDesign2.Edit()
+Save(Overwrite=True)
+bladeDesign2.Exit()
+bladeDesign3 = system7.GetContainer(ComponentName="Blade Design")
+bladeDesign3.Edit()
+template2 = GetTemplate(
+    TemplateName="Thermal-Electric",
+    Solver="ANSYS")
+bladeDesignComponent1 = system7.GetComponent(Name="Blade Design")
+componentTemplate1 = GetComponentTemplate(Name="GeometryCellTemplate")
+system19 = template2.CreateSystem(
+    DataTransferFrom=[Set(FromComponent=bladeDesignComponent1, TransferName=None, ToComponentTemplate=componentTemplate1)],
+    RelativeTo=system7)
+system19.Delete()
+bladeDesign3.Edit()
+Save(Overwrite=True)
+bladeDesign3.Exit()
+bladeDesign4 = system9.GetContainer(ComponentName="Blade Design")
+bladeDesign4.Edit()
+Save(Overwrite=True)
+bladeDesign4.Exit()
+bladeDesign2.Edit()
+bladeDesign2.Exit()
+bladeDesign3.Edit()
+Save(Overwrite=True)
+bladeDesign3.Exit()
+bladeDesign4.Edit()
+bladeDesign5 = system11.GetContainer(ComponentName="Blade Design")
+bladeDesign5.Edit()
+bladeDesign3.Edit()
+bladeDesign3.Exit()
+bladeDesign2.Edit()
+bladeDesign2.Exit()
+bladeDesign4.Exit()
+bladeDesign5.Edit()
+Save(Overwrite=True)
+bladeDesign5.Exit()
+bladeDesign6 = system12.GetContainer(ComponentName="Blade Design")
+bladeDesign6.Edit()
+bladeDesign5.Edit()
+bladeDesign4.Edit()
+bladeDesign4.Exit()
+bladeDesign5.Exit()
+bladeDesign6.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+bladeDesign6.Exit()
+bladeDesign5.Edit()
+bladeDesign5.Exit()
+bladeDesign4.Edit()
+bladeDesign4.Edit()
+bladeDesign4.Exit()
+bladeDesign6.Edit()
+Save(Overwrite=True)
+bladeDesign6.Exit()
+bladeDesign7 = system13.GetContainer(ComponentName="Blade Design")
+bladeDesign7.Edit()
+bladeDesign7.Edit()
+bladeDesign7.Edit()
+Save(Overwrite=True)
+bladeDesign7.Exit()
+bladeDesign7.Edit()
+bladeDesign7.Exit()
+bladeDesign8 = system14.GetContainer(ComponentName="Blade Design")
+bladeDesign8.Edit()
+Save(Overwrite=True)
+bladeDesign8.Exit()
+bladeDesign9 = system15.GetContainer(ComponentName="Blade Design")
+bladeDesign9.Edit()
+Save(Overwrite=True)
+bladeDesign9.Exit()
+bladeDesign10 = system16.GetContainer(ComponentName="Blade Design")
+bladeDesign10.Edit()
+bladeDesign10.Edit()
+bladeDesign10.Exit()
+bladeDesign10.Edit()
+bladeDesign10.Exit()
+CleanSystem(Systems=[system16])
+system16.Delete()
+system20 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system11)
+system20.DisplayText = "LV_11_STATOR"
+bladeDesign11 = system20.GetContainer(ComponentName="Blade Design")
+bladeDesign11.Edit()
+bladeDesign11.Edit()
+bladeDesign11.Edit()
+Save(Overwrite=True)
+bladeDesign11.Exit()
+bladeDesign12 = system17.GetContainer(ComponentName="Blade Design")
+bladeDesign12.Edit()
+Save(Overwrite=True)
+bladeDesign12.Exit()
+bladeDesign13 = system18.GetContainer(ComponentName="Blade Design")
+bladeDesign13.Edit()
+Save(Overwrite=True)
